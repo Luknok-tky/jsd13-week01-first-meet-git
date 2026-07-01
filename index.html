@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tags Demo</title>
+</head>
+<body>
+
+  <header>
+    <h1>HTML Tags Demo</h1>
+    <nav>
+      <ul>
+        <li><a href="#text">Text</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#media">Links &amp; Media</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#form">Form</a></li>
+        <li><a href="#aside">Aside</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="text">
+      <h2>Text Elements</h2>
+
+      <h3>Headings</h3>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+      <hr>
+
+      <h3>Paragraphs and Inline</h3>
+      <p>This is a paragraph with <strong>strong</strong>, <em>emphasized</em>, <small>small</small>, and <code>inline code</code> text.</p>
+      <p>This line has a<br>line break inside it.</p>
+
+      <blockquote>
+        <p>This is a blockquote. It is used to quote content from another source.</p>
+      </blockquote>
+
+      <pre>Preformatted text
+  preserves whitespace
+    and line breaks.</pre>
+    </section>
+
+    <hr>
+
+    <section id="lists">
+      <h2>Lists</h2>
+
+      <article>
+        <h3>Ordered List</h3>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+        </ol>
+      </article>
+
+      <article>
+        <h3>Unordered List</h3>
+        <ul>
+          <li>Red</li>
+          <li>Green</li>
+          <li>Blue</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Description List</h3>
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+        </dl>
+      </article>
+    </section>
+
+    <hr>
+
+    <section id="media">
+      <h2>Links and Media</h2>
+
+      <article>
+        <h3>Links</h3>
+        <p>Visit <a href="https://developer.mozilla.org">MDN Web Docs</a> to learn more about HTML.</p>
+      </article>
+
+      <article>
+        <h3>Image with Figure</h3>
+        <figure>
+          <img src="https://via.placeholder.com/300x200" alt="Placeholder image showing a 300 by 200 rectangle">
+          <figcaption>A sample image with a figcaption.</figcaption>
+        </figure>
+      </article>
+
+      <article>
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="sample.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </article>
+
+      <article>
+        <h3>Video</h3>
+        <video controls width="320">
+          <source src="sample.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </article>
+    </section>
+
+    <hr>
+
+    <section id="table">
+      <h2>Table</h2>
+      <table>
+        <caption>Programming Languages Comparison</caption>
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Paradigm</th>
+            <th>First appeared</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Python</td>
+            <td>Multi-paradigm</td>
+            <td>1991</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Event-driven</td>
+            <td>1995</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Markup</td>
+            <td>1993</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr>
+
+    <section id="form">
+      <h2>Form</h2>
+      <form>
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </p>
+
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </p>
+
+          <p>
+            <label for="topic">Topic:</label>
+            <select id="topic" name="topic">
+              <option value="">Select a topic</option>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">JavaScript</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </fieldset>
+      </form>
+    </section>
+
+    <hr>
+
+    <aside id="aside">
+      <h2>Did You Know?</h2>
+      <p>The <code>&lt;aside&gt;</code> element represents content indirectly related to the main content, like sidebars or call-out boxes.</p>
+    </aside>
+
+  </main>
+
+  <footer>
+    <p><small>Built with HTML only &mdash; no CSS or JavaScript used.</small></p>
+  </footer>
+
+</body>
+</html>
