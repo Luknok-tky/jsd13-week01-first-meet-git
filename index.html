@@ -199,11 +199,38 @@
       <p>The <code>&lt;aside&gt;</code> element represents content indirectly related to the main content, like sidebars or call-out boxes.</p>
     </aside>
 
+    <hr>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <div id="menu-container" class="menu-grid"></div>
+    </section>
+
   </main>
 
   <footer>
-    <p><small>Built with HTML only &mdash; no CSS or JavaScript used.</small></p>
+    <p><small>Built with HTML, CSS &amp; JavaScript.</small></p>
   </footer>
+
+  <script src="my-object.js"></script>
+  <script>
+    const container = document.getElementById('menu-container');
+
+    foodDatabase.forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'menu-card';
+
+      card.innerHTML = `
+        <img src="${item.image}" alt="${item.name}">
+        <div class="menu-info">
+          <h3>${item.name}</h3>
+          <p class="price">$${item.price.toFixed(2)}</p>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+  </script>
 
 </body>
 </html>
