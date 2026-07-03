@@ -1,58 +1,43 @@
-//"Pizza", "Malatang", "Padthai", "Burger", "Sushi", "Medovik"
-
-let foodDatabase = [
-    {
+let shinchanDatabase = [
+{
     id: 1,
-    name: "Pizza",
-    cuisine: "Italian",
-    origin: "Italy",
-    vegetarian: "false",
-    price: 12.99,
-    image: "https://placehold.co/300x200?text=Pizza"
-    },
-    {
-    id: 2,
-    name: "Malatung",
-    cuisine: "Chinese",
-    origin: "China",
-    vegetarian: "false",
-    price: 10.99,
-    image: "https://placehold.co/300x200?text=Malatung"
-    },
-    {
-    id: 3,
-    name: "Padthai",
-    cuisine: "Thai",
-    origin: "Thailand",
-    vegetarian: "false",
-    price: 11.49,
-    image: "https://placehold.co/300x200?text=Padthai"
-    },
-    {
-    id: 4,
-    name: "Burger",
-    cuisine: "USA",
-    origin: "America",
-    vegetarian: "false",
-    price: 9.99,
-    image: "https://placehold.co/300x200?text=Burger"
-    },
-    {
-    id: 5,
-    name: "Sushi",
-    cuisine: "Japanese",
-    origin: "Japan",
-    vegetarian: "false",
-    price: 14.99,
-    image: "https://placehold.co/300x200?text=Sushi"
-    },
-    {
-    id: 6,
-    name: "Medovik",
-    cuisine: "Russian",
-    origin: "Russia",
-    vegetarian: "false",
-    price: 7.99,
-    image: "https://placehold.co/300x200?text=Medovik"
-    },
-];
+    name: "Nohara Shinnosuke 野原 - 新之助",
+    dob: "May 5",
+},
+{   id: 2,
+    name: "Nohara Himawari 野原 - ひまわり",
+    dob: "Sep 27",
+},
+{   id: 3,
+    name: "Nohara Misae 野原 - みさえ",
+    dob: "Oct 10",
+},
+{   id: 4,
+    name: "Nohara Hiroshi 野原 - ひろし",
+    dob: "Unknown",
+},
+{   id: 5,
+    name: "Nohara Shiro 野原 - シロ",
+    dob: "Unknown",
+},
+{   id: 6,
+    name: "Sakurada Nene 桜田 - ネネ",
+    dob: "Jun 5",
+},
+{   id: 7,
+    name: "Kazama Toru 風間 - トオル",
+    dob: "Jul 19",
+},
+{   id: 8,
+    name: "Sato Masao 佐藤 - マサオ",
+    dob: "Feb 4",
+},
+{   id: 9,
+    name: "Ikawa Botaro 井川 - 棒太郎",
+    dob: "Sep 1",
+},
+{   id: 10,
+    name: "Suotome Ai 酢乙女 - あい",
+    dob: "Unknown",
+},
+]
