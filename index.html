@@ -216,21 +216,20 @@
   <script>
     const container = document.getElementById('menu-container');
 
-    foodDatabase.forEach(item => {
-      const card = document.createElement('div');
-      card.className = 'menu-card';
+    shinchanDatabase.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'menu-card';
 
-      card.innerHTML = `
-        <img src="${item.image}" alt="${item.name}">
-        <div class="menu-info">
-          <h3>${item.name}</h3>
-          <p class="price">$${item.price.toFixed(2)}</p>
-        </div>
-      `;
+        card.innerHTML = `
+            <div class="menu-info">
+                <h3>${item.name}</h3>
+                <p class="dob">Birthday: ${item.dob}</p>
+            </div>
+        `;
 
-      container.appendChild(card);
+        container.appendChild(card);
     });
-  </script>
+</script>
 
 </body>
 </html>
